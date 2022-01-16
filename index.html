@@ -1,202 +1,328 @@
-<html>
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>light导航</title>
+    <meta name="description" content="即使你我平凡，却亦在彼此的眼中闪闪发光">
+    <link rel="shortcut icon" href="https://xyz23333.github.io/nav//media/images/eduifuns.png">
+    <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="https://xyz23333.github.io/nav//media/css/icomoon.css">
+    <link rel="stylesheet" href="https://xyz23333.github.io/nav//media/css/main.css?v=1642341392832">
+  </head>
 
-<title>light博客</title>
-
-<link rel="shortcut icon" href="https://xyz23333.github.io//favicon.ico?v=1642324798149">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://xyz23333.github.io//styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-
-</head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="/">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            light博客
-        </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    归档
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1642324798149"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-
-
-        <div class="post-list-container">
-    <div class="post-inner">
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://xyz23333.github.io/post/ce-shi/">
-                            <span class="post-title gt-c-content-color-first">测试</span>
+<body class="page-body">
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="https://xyz23333.github.io/nav/" class="logo-expanded">
+                            <img src="https://xyz23333.github.io/nav//images/avatar.png"  style="height:68px" alt="" />
+                        </a>
+                        <a href="https://xyz23333.github.io/nav/" class="logo-collapsed">
+                            <img src="https://xyz23333.github.io/nav//media/images/eduifuns.png" width="40" alt="" />
                         </a>
                     </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2022-01-16 ·
-                        </time>
-                        
-                    </div>
-                </div>
-                
-                    <a href="https://xyz23333.github.io/post/ce-shi/" class="post-feature-image"
-                       style="background-image: url('https://xyz23333.github.io//post-images/ce-shi.jpg')">
-                    </a>
-                
-            </div>
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://xyz23333.github.io/post/hello-gridea/">
-                            <span class="post-title gt-c-content-color-first">Hello Gridea</span>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="icon-bar"></i>
                         </a>
                     </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
+                </header>
+                <ul id="main-menu" class="main-menu">
+                    <!-- li 加 has-sub 开启分组-->
+                    <li class="has-sub">
+                        <a>
+                            <i class="icon-globe"></i>
+                            <span class="title">在线工具</span>
+                        </a>
+                        <!-- ul li 格式添加子分组-->
+                        <ul>
+                            <li>
+                                <a href="#教学助手" class="smooth">
+                                    <i class="icon-star"></i>
+                                    <span class="title">教学助手</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#图文影音" class="smooth">
+                                    <i class="icon-pencil"></i>
+                                    <span class="title">图文影音</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#百科全书" class="smooth">
+                                    <i class="icon-database"></i>
+                                    <span class="title">百科全书</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#实用软件" class="smooth">
+                            <i class="icon-desktop"></i>
+                            <span class="title">实用软件</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#线上课程" class="smooth">
+                            <i class="icon-graduation-cap"></i>
+                            <span class="title">线上课程</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="#素材资源" class="smooth">
+                            <i class="icon-inbox"></i>
+                            <span class="title">素材资源</span>
+                        </a>
+                    </li>
+                    
+                    <li class="submit-tag">
+                        <a href="https://xyz23333.github.io/nav//about">
+                            <i class="icon-heart"></i>
+                            <span class="title">关于本站</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2018-12-12 ·
-                        </time>
-                        
-                            <a href="https://xyz23333.github.io/tag/l_juADCPV/" class="post-tag">
-                                # Gridea
+            <!-- 今日诗词 -->
+            <div id="poem_content">
+                <h3 id="poem_sentence"></h3><span id="poem_info"></span>
+            </div>
+            <!-- 今日诗词 -->
+            <br />
+            <!-- 在线工具 -->
+            
+            <h4 class="text-gray"><i class="icon-star" style="margin-right: 7px;" id="教学助手"></i>教学助手</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  avatar=""  class="lozad img-circle" width="40">
                             </a>
-                        
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong></strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                    <a href="https://xyz23333.github.io/post/hello-gridea/" class="post-feature-image"
-                       style="background-image: url('https://xyz23333.github.io//post-images/hello-gridea.png')">
-                    </a>
+            </div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="icon-pencil" style="margin-right: 7px;" id="图文影音"></i>图文影音</h4>
+            <div class="row">
                 
             </div>
-        
-    </div>
-</div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="icon-database" style="margin-right: 7px;" id="百科全书"></i>百科全书</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  avatar=""  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong></strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 在线工具 -->
 
-        <div class="pagination-container">
-    
-    
-</div>
+            <!-- 实用软件 -->
+            
+            <h4 class="text-gray"><i class="icon-desktop" style="margin-right: 7px;" id="实用软件"></i>实用软件</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://imyshare.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://imyshare.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://imyshare.com/static/img/logo.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>iMyShare  </strong>
+                                </a>
+                                <p class="overflowClip_2">神秘的热心网友</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 实用软件 -->
+
+            <!-- 线上课程 -->
+            
+            <h4 class="text-gray"><i class="icon-graduation-cap" style="margin-right: 7px;" id="线上课程"></i>线上课程</h4>
+            <div class="row">
+                
+            </div>
+            <br />
+            
+            <!-- END 线上课程 -->
+
+            <!-- 素材资源 -->
+            
+            <h4 class="text-gray"><i class="icon-inbox" style="margin-right: 7px;" id="素材资源"></i>素材资源</h4>
+            <div class="row">
+                
+            </div>
+            <br />
+            
+            <!-- END 素材资源 -->
 
 
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">即使你我平凡，却亦在彼此的眼中闪闪发光</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+                    <!-- Add your copyright text here -->
+                    <div class="footer-text">
+                        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> <span id="busuanzi_container_site_pv" style='display:none'>总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+                    </div>
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="icon-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
-    <div class="footer-info">
-        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://xyz23333.github.io//atom.xml" target="_blank">RSS</a></a>
-    </div>
-</div>
 
-<script>
-  hljs.highlightAll()
-</script>
 
-    </div>
-</div>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    jinrishici.load(function(result) {
+        var sentence = document.querySelector("#poem_sentence")
+        var info = document.querySelector("#poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+    });
+    </script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
+
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
+            } else {
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function(ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="https://xyz23333.github.io/nav//media/js/bootstrap.min.js"></script>
+    <script src="https://xyz23333.github.io/nav//media/js/TweenMax.min.js"></script>
+    <script src="https://xyz23333.github.io/nav//media/js/resizeable.js"></script>
+    <script src="https://xyz23333.github.io/nav//media/js/xenon-toggles.js"></script>
+    <script src="https://xyz23333.github.io/nav//media/js/xenon-custom.js"></script>
+    <script src="https://xyz23333.github.io/nav//media/js/lozad.js"></script>
+    <script src="https://xyz23333.github.io/nav//media/js/LetterAvatar.js"></script>
 </body>
+
+
+
 </html>
